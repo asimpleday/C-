@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ado.NETDemo", "Ado.NETDemo\Ado.NETDemo.csproj", "{553CDE35-DE43-48A2-9A45-D2F5BA553C27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ado.NETDemo2", "Ado.NETDemo2\Ado.NETDemo2.csproj", "{2EEDCC5B-E11F-4FE4-A361-21464D130C6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{553CDE35-DE43-48A2-9A45-D2F5BA553C27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{553CDE35-DE43-48A2-9A45-D2F5BA553C27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{553CDE35-DE43-48A2-9A45-D2F5BA553C27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{553CDE35-DE43-48A2-9A45-D2F5BA553C27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EEDCC5B-E11F-4FE4-A361-21464D130C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EEDCC5B-E11F-4FE4-A361-21464D130C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EEDCC5B-E11F-4FE4-A361-21464D130C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EEDCC5B-E11F-4FE4-A361-21464D130C6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44011666-DC6C-4D29-82B2-C53E8A628D08}
+	EndGlobalSection
+EndGlobal

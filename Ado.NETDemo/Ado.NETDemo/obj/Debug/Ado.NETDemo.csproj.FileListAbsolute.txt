@@ -1,0 +1,7 @@
+I:\LearningC#\Ado.NETDemo\Ado.NETDemo\bin\Debug\Ado.NETDemo.exe.config
+I:\LearningC#\Ado.NETDemo\Ado.NETDemo\bin\Debug\Ado.NETDemo.exe
+I:\LearningC#\Ado.NETDemo\Ado.NETDemo\bin\Debug\Ado.NETDemo.pdb
+I:\LearningC#\Ado.NETDemo\Ado.NETDemo\obj\Debug\Ado.NETDemo.csprojAssemblyReference.cache
+I:\LearningC#\Ado.NETDemo\Ado.NETDemo\obj\Debug\Ado.NETDemo.csproj.CoreCompileInputs.cache
+I:\LearningC#\Ado.NETDemo\Ado.NETDemo\obj\Debug\Ado.NETDemo.exe
+I:\LearningC#\Ado.NETDemo\Ado.NETDemo\obj\Debug\Ado.NETDemo.pdb
