@@ -1,0 +1,6 @@
+I:\C-SHARP\Ado.NETDemo\DAL\bin\Debug\DAL.dll
+I:\C-SHARP\Ado.NETDemo\DAL\bin\Debug\DAL.pdb
+I:\C-SHARP\Ado.NETDemo\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+I:\C-SHARP\Ado.NETDemo\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+I:\C-SHARP\Ado.NETDemo\DAL\obj\Debug\DAL.dll
+I:\C-SHARP\Ado.NETDemo\DAL\obj\Debug\DAL.pdb

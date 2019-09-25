@@ -1,0 +1,11 @@
+I:\C-SHARP\Ado.NETDemo\BLL\bin\Debug\BLL.dll
+I:\C-SHARP\Ado.NETDemo\BLL\bin\Debug\BLL.pdb
+I:\C-SHARP\Ado.NETDemo\BLL\bin\Debug\DAL.dll
+I:\C-SHARP\Ado.NETDemo\BLL\bin\Debug\Entity.dll
+I:\C-SHARP\Ado.NETDemo\BLL\bin\Debug\DAL.pdb
+I:\C-SHARP\Ado.NETDemo\BLL\bin\Debug\Entity.pdb
+I:\C-SHARP\Ado.NETDemo\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+I:\C-SHARP\Ado.NETDemo\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+I:\C-SHARP\Ado.NETDemo\BLL\obj\Debug\BLL.csproj.CopyComplete
+I:\C-SHARP\Ado.NETDemo\BLL\obj\Debug\BLL.dll
+I:\C-SHARP\Ado.NETDemo\BLL\obj\Debug\BLL.pdb

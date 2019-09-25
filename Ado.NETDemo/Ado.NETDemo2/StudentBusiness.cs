@@ -12,6 +12,7 @@ namespace Ado.NETDemo2
     /// </summary>
     public class StudentBusiness
     {
+        StudentDao dao = new StudentDao();
         /// <summary>
         /// 获取所有学生
         /// </summary>
@@ -22,7 +23,7 @@ namespace Ado.NETDemo2
 
 
 
-            StudentDao dao = new StudentDao();
+            
             SqlDataReader reader = dao.GetDataReader("select StudentNo,StudentName from Student");
             while (reader.Read())
             {
@@ -38,6 +39,18 @@ namespace Ado.NETDemo2
             // 关闭连接
             dao.connection.Close();
             return students;
+        }
+
+        /// <summary>
+        /// 增加年级
+        /// </summary>
+        /// <param name="gradeId"></param>
+        /// <param name="gradeName"></param>
+        /// <returns></returns>
+        public int AddGrade(string gradeId, string gradeName)
+        {
+            string sql = string.Format("insert into grade([GradeId], [GradeName]) values('{0}', '{1}')", gradeId, gradeName);
+            return dao.Save(sql);
         }
     }
 }

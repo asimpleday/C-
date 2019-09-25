@@ -1,0 +1,6 @@
+I:\C-SHARP\Ado.NETDemo\Entity\bin\Debug\Entity.dll
+I:\C-SHARP\Ado.NETDemo\Entity\bin\Debug\Entity.pdb
+I:\C-SHARP\Ado.NETDemo\Entity\obj\Debug\Entity.csprojAssemblyReference.cache
+I:\C-SHARP\Ado.NETDemo\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+I:\C-SHARP\Ado.NETDemo\Entity\obj\Debug\Entity.dll
+I:\C-SHARP\Ado.NETDemo\Entity\obj\Debug\Entity.pdb

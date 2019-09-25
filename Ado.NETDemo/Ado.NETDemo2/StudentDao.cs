@@ -143,5 +143,14 @@ namespace Ado.NETDemo2
              
             return reader;
         }
+
+        
+
+        public int Save(string sql)
+        {
+            connection.Open();
+            SqlCommand command = new SqlCommand(sql, connection);
+            return command.ExecuteNonQuery();
+        }
     }
 }

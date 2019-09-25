@@ -1,0 +1,14 @@
+I:\C-SHARP\Ado.NETDemo\UI\bin\Debug\UI.exe.config
+I:\C-SHARP\Ado.NETDemo\UI\bin\Debug\UI.exe
+I:\C-SHARP\Ado.NETDemo\UI\bin\Debug\UI.pdb
+I:\C-SHARP\Ado.NETDemo\UI\obj\Debug\UI.csprojAssemblyReference.cache
+I:\C-SHARP\Ado.NETDemo\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+I:\C-SHARP\Ado.NETDemo\UI\obj\Debug\UI.exe
+I:\C-SHARP\Ado.NETDemo\UI\obj\Debug\UI.pdb
+I:\C-SHARP\Ado.NETDemo\UI\bin\Debug\BLL.dll
+I:\C-SHARP\Ado.NETDemo\UI\bin\Debug\DAL.dll
+I:\C-SHARP\Ado.NETDemo\UI\bin\Debug\Entity.dll
+I:\C-SHARP\Ado.NETDemo\UI\bin\Debug\BLL.pdb
+I:\C-SHARP\Ado.NETDemo\UI\bin\Debug\DAL.pdb
+I:\C-SHARP\Ado.NETDemo\UI\bin\Debug\Entity.pdb
+I:\C-SHARP\Ado.NETDemo\UI\obj\Debug\UI.csproj.CopyComplete
