@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SQLHelper.cs" />
     <Compile Include="UserManageDal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

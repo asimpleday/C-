@@ -68,7 +68,9 @@ namespace QQUserManage
             return result;
         }
 
-
+        /// <summary>
+        /// 显示菜单
+        /// </summary>
         public void ShowMenu()
         {
             Console.WriteLine("-------------------------欢迎登陆QQ用户信息管理系统--------------------------");
@@ -96,10 +98,13 @@ namespace QQUserManage
                 case 1:
                     // 显示用户信息
                     GetUserList();
+                    ShowMenu();
                     break;
 
                 case 2:
                     // 更新在线天数
+                    UpdateOnlineDay();
+                    ShowMenu();
                     break;
 
                 case 3:
@@ -112,6 +117,8 @@ namespace QQUserManage
 
                 case 5:
                     // 删除用户
+                    Del();
+                    ShowMenu();
                     break;
 
                 case 6:
@@ -121,8 +128,12 @@ namespace QQUserManage
                 default:
                     break;
             }
+            
         }
 
+        /// <summary>
+        /// 显示所有用户信息
+        /// </summary>
         public void GetUserList()
         {
             var bll = new UserManageBll();
@@ -131,7 +142,48 @@ namespace QQUserManage
 
             foreach (var userInfo in list)
             {
-                Console.WriteLine("用户ID:" + userInfo.UserId + ";用户名:" + userInfo.UserName + ";用户等级：" + userInfo.LevelName);
+                Console.WriteLine("用户ID:" + userInfo.UserId + ";--------------用户名:" + userInfo.UserName + ";--------------用户等级：" + userInfo.LevelName + ";--------------------用户在线天数：" + userInfo.OnLineDay);
+            }
+        }
+
+        /// <summary>
+        /// 更新用户在线天数
+        /// </summary>
+        public void UpdateOnlineDay()
+        {
+            Console.WriteLine("请输入用户编号：");
+            int userId = int.Parse(Console.ReadLine());
+            Console.WriteLine("请输入在线天数");
+            int onlineDay = int.Parse(Console.ReadLine());
+
+            var bll = new UserManageBll();
+            int result = bll.UpdateOnlineDay(onlineDay, userId);
+            if (result > 0)
+            {
+                Console.WriteLine("更新成功");
+            }
+            else
+            {
+                Console.WriteLine("更新失败");
+            }
+        }
+
+        /// <summary>
+        /// 删除用户
+        /// </summary>
+        public void Del()
+        {
+            var bll = new UserManageBll();
+            Console.WriteLine("请输入需要删除的用户编号");
+            int userId = int.Parse(Console.ReadLine());
+            int result = bll.Del(userId);
+            if (result > 0)
+            {
+                Console.WriteLine("删除成功");
+            }
+            else
+            {
+                Console.WriteLine("删除失败，请重新输入用户编号");
             }
         }
 
